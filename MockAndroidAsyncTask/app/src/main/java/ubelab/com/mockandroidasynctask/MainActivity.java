@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            return 0;
+            return Result.SUCCESS;
         }
 
         @Override
